@@ -1,6 +1,8 @@
 #Python Operators
 m =  129
 n = 17
+p = [x for x in range(10)]
+print(f"List of whole numbers less than 10: {p}")
 print(f"First number: {m}\nSecond number: {n}")
 print("\nArithmetic Operators")
 ans = m + n
@@ -70,6 +72,32 @@ print(1 | 0)
 print("Bitwise Or: 0 | 0 = ", end= '') 
 print(0 | 0)
 print("\n")
+print("\nMembership Operators")
+print("IN: 0 in p = ", end= '') 
+print(0 in p)
+print("NOT IN: 0 in p = ", end= '') 
+print(0 not in p)
+print("\n")
+print("\nIdentity Operators")
+print("IS: Data type of 20 is integer = ", end= '') 
+print(type(20) is int)
+print("IS NOT: Data type of 20 is not string = ", end= '') 
+print(20 is not str)
+print("\n")
+print("\nAssignment/ Augmented assignment Operators")
+ans = 20
+print(f"=: Assigning an integer literal to a variable: ans = {ans}")
+ans += 1
+print(f"+=: Addition assignment: ans+={1} = {ans}")
+ans -= 1
+print(f"+=: Subtraction assignment: ans-={1} = {ans}")
+ans *= 2
+print(f"*=: Multiplication assignment: ans*={2} = {ans}")
+ans /= 4
+print(f"/=: Division assignment: ans/={4} = {ans}")
+
+
+
 
   
  
