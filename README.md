@@ -26,4 +26,20 @@ This **repo** contains various files that illustrate some key concepts in Python
 - > - Assignment; &nbsp;'=', &nbsp;'+=', &nbsp;'-=', &nbsp;'/=', &nbsp;'\*='
 </details>
 
----
+### **File_3**
+
+<details>
+<summary>List Methods</summary>
+- This file illustrates some common methods that can be performed on List.
+
+</details>
+
+### **File_4**
+
+<details>
+<summary>Exception Handling</summary>
+
+- > Exception handling helps to gracefully catch an error and determine how to handle  
+  >  it. It offers opportunity to display error message in a more user-friendly way that can be more useful and understandable to the user. It is a good practice to write your programs with 'exception handling' in mind. This file illustrates how to do that.
+
+## </details>
